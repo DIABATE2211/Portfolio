@@ -7,6 +7,13 @@ body,header,nav,main,footer,h1,div,img,figure,figcaption,section,article,aside,a
 html { scroll-behavior: smooth; }
 * { box-sizing: border-box; }
 
+.suse-mono-<uniquifier> {
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* ===== BODY & CONTAINER ===== */
 body {
     background-color: #ffffff;
@@ -154,3 +161,4 @@ input:focus, select:focus, textarea:focus { border: 1px solid #333; outline: non
   #submit { width: 100%; }
   footer a img { width: 35px; height: 35px; }
 }
+
